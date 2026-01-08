@@ -59,7 +59,7 @@ pip install onnxruntime
 ### Process stereo video files
 
 ```bash
-python main.py --left ./scenes/scene_1/sequence_0000_left.mp4 --right /scenes/scene_1/sequence_0000_right.mp4 --config 0000.json
+python main.py --left ./scenes/scene_1/sequence_0000_left.mp4 --right ./scenes/scene_1/sequence_0000_right.mp4 --config ./scenes/scene_1/0000.json
 ```
 
 ### Use webcams
